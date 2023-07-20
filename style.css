@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600;700&family=Open+Sans:wght@700&family=Work+Sans:wght@400;500;700;800&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+nav {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+#gamer{
+    margin-left:240px ;
+    position: relative;
+}
+
+#gamer-img{
+    position: relative;
+    top: 10px;
+    width:70px ;
+}
+
+#G{
+    color: #F948B2;
+}
+
+#follow{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    /* border-radius: 8px;
+    width: 120%;
+    height: 40px;
+    background:rgba(11, 2, 35, 0.10) ; */
+}
+
+
+
+#mini-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    /* position: relative;
+    bottom: 40px;
+    left: 110px;
+    align-items: center; */
+}
+
+/* #mini-icon img{
+    position: relative;
+    bottom: 100px;
+    left: 108px;
+    width: 22px;
+    margin-right: 5px;
+}
+ */
+
+#li-3{
+    display: inline-block;
+    background-color:  rgba(11, 2, 35, 0.10);
+}
+
+#li-3 img{
+    width: 20%;
+    position: relative;
+    bottom: 20px;
+    left: 100px;
+}
+
+/* goat section  */
+
+
+
+
+.goat-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goat-left {
+    background-image: url('/images/Group\ 14.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-left: 240px;
+    position: relative;
+    /* right: 100px; */
+}
+
+#goat-h4 {
+    font-size: 45px;
+    font-weight: 510;
+    position: relative;
+    top: 105px;
+}
+
+#goat-h1 {
+    position: relative;
+    top: 50px;
+    font-size: 79px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.goat-info {
+    color: #534C64;
+    font-size: 20px;
+}
+
+#signin {
+    width: 120px;
+    height: 60px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #fff;
+}
+
+#go {
+    width: 120px;
+    height: 60px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #fff;
+}
+
+
+        /* gamer section  */
+
+.we-are-gamer {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 100px;
+}
+
+.gamer-title {
+    position: relative;
+    top: 20px;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-info {
+    color: #534C64;
+    width: auto;
+}
+
+.know {
+    width: 120px;
+    height: 60px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #fff;
+}
+
+#purpose {
+    font-size: 25px;
+    font-weight: 420;
+}
+
+#unleash {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.gamer-left img{
+    position: relative;
+    right: 50px;
+}
+
+.gamer-right{
+    position: relative;
+    right: 55px;
+}
+
+
+
+
+
+
+        
+
+/* Online videos section  */
+
+
+
+
+
+.video-img-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 90px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.video-img-container img{
+    width: 300px;
+}
+
+#black:hover{
+    filter: brightness(45%);
+}
+
+#watch-now{
+    position: relative;
+    display: inline-block;
+}
+
+#p-content{
+    display: flex;
+    color: #F948B2;
+    font-size: 2px;
+    font-weight: 800;
+    position: relative;
+    right: 40px;
+    bottom: 20px;
+    
+}
+#watch-now {
+    position: relative;
+    display: inline-block;
+  }
+  
+ #watch-now:hover #play-icon-content{
+    display: block;
+}
+
+  #black {
+    object-fit: cover;
+    transition: filter 0.1s;
+  }
+  
+  #play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+  }
+  
+  #watch-now:hover #black {
+    filter: brightness(60%);
+  }
+  
+  #watch-now:hover #play-icon {
+    display: block;
+  }
+  
+  
+  #p-content {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: translate(-50%, -50%);
+    color:#F948B2 ;
+    font-size: 2rem; 
+    text-align: center;
+    display: none;
+    margin: 5px;
+  }
+  
+  #watch-now:hover #p-content {
+    display: block;
+  }
+#play-icon{
+    flex-direction: column;
+    font-size: 60px;
+    position: absolute;
+    top: 36%;
+    left: 45%;
+    color: white;
+}
+
+#play-icon-content {
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+
+.video-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#watch{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#video-info{
+    position: relative;
+    bottom: 15px;
+    font-size: 17px ;
+    font-weight: 100;
+}
+
+#funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+        /* bilai section  */
+
+.bilai-container{
+    display: flex;
+    gap: 475px;
+}
+
+
+.bilai-left{
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+
+#play{
+    color:#F948B2;
+  
+}
+
+.bilai-h2{
+    font-size: 35px;
+}
+
+
+.bilai-h2, .bilai-info{
+    text-align: right;
+}
+
+
+.bilai-right img{
+    position: relative;
+    padding-top: 90px;
+    width: 70%;
+}
+
+#bilai-only{
+    border-radius: 8px;
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+    width: 50%;
+}
+
+
+
+
+
+/* types of game section  */
+
+#game-types{
+    position: relative;
+    bottom: 200px;
+}
+
+
+#div-up{
+    margin-left: 170px;
+}
+
+#div-up img,
+#div-up p {
+    margin-bottom: 70px;
+    margin-left: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 800;
+}
+
+#div-down{
+    display: flex;
+    margin-left: 272px;
+}
+
+#div-down p{
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.down-p{
+    position: relative;
+    right: 9px;
+}
+
+
+
+#div-up img,
+#div-up p {
+  border: 2px solid transparent; /* Initially set border to transparent */
+  transition: border 0.1s ease; /* Add a smooth transition effect */
+}
+
+#div-up img:hover,
+#div-up p:hover {
+  border: 3px solid #ff0deb; /* Add a black border on hover */
+}
+
+#div-down img,
+#div-down p{
+    border: 1px solid transparent; 
+    transition: border 0.1s ease;
+}
+
+
+#div-down img:hover,
+#div-down p:hover {
+  border: 3px solid #ff0deb; /* Add a black border on hover */
+}
+
+
+
+        /* Footer section  */
+
+        #footer{
+            height: 500px;
+            background: #0B0223;
+        }
+
+
+.footer-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 14%;
+
+}
+
+#joystick{
+    position: relative;
+    top: 12px;
+}
+
+
+#footer-h1{
+    color: white;
+}       
+
+
+#footer-g{
+    color: #F948B2;
+}
+
+#footer-ps{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    top:90px ;
+
+}
+
+
+.color-white{
+    color: white;
+}
+
+#social-media{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    font-size: 50px;
+    color: #000000;
+    gap: 50px;
+}
+
+
+
+#footer-p2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+    gap: 40px;
+    
+}
+
+
+.footer-p23{
+    color: rgba(255, 255, 255, 0.60);;
+}
+
+#footer-end{
+    position: relative;
+    top: 160px;
+    left: 510px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
